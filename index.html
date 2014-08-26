@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Week 4</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body ng-app="app">
+
+    <nav>
+        <ul>
+            <li><a href="#/">Home</a></li>
+            <li><a href="#/register">Register</a></li>
+            <li><a href="#/history">About</a></li>
+            <li><a href="#/members">Members</a></li>
+            <li><a href="#/gallery">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <div class="content at-view-slide-out-left at-view-slide-in-left" ng-view>
+    </div>
+    <footer>
+
+    </footer>
+
+<script src="js/angular.min.js"></script>
+<script src="js/angular-route.js"></script>
+<script src="js/angular-animate.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

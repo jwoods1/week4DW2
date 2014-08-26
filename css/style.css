@@ -1,0 +1,114 @@
+/* Main wrapper *******************************/
+.wrapper{
+    width:90%;
+    position: relative;
+}
+
+/*******Navigation ***************************
+
+nav{
+    width:50%;
+    margin: 0 auto;
+}
+.nav-links{
+    list-style: none;
+    margin: 3% ;
+}
+.nav-links li{
+    float: left;
+    display: block;
+    margin-left: 2%;
+}
+  */
+/********* Content ***************************
+.content{
+    clear:both;
+    width:93%
+    margin:2%;
+    padding: 5%;
+}  */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: .55em;
+    color: #7d92cc;
+}
+/* big screens */
+section {
+    float: left;
+    width:60.666663%;
+}
+aside{
+    float: left;
+    width:30.333333%;
+}
+img{
+  width:16em;
+}
+
+.at-view-slide-out-left.ng-leave {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -o-transition-property: -o-transform, opacity;
+    transition-property: transform, opacity;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transform: translate(0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+    opacity: 1;
+    z-index: 3;
+    position: absolute;
+}
+
+.at-view-slide-out-left.ng-leave-active {
+    -webkit-transform: translate(-100%, 0px);
+    -moz-transform: translate(-100%, 0px);
+    -ms-transform: translate(-100%, 0px);
+    -o-transform: translate(-100%, 0px);
+    transform: translate(-100%, 0px);
+    opacity: 0;
+    position: absolute;
+}
+
+.at-view-slide-in-left.ng-enter {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -o-transition-property: -o-transform, opacity;
+    transition-property: transform, opacity;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transform: translate(-100%, 0px);
+    -moz-transform: translate(-100%, 0px);
+    -ms-transform: translate(-100%, 0px);
+    -o-transform: translate(-100%, 0px);
+    transform: translate(-100%, 0px);
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+}
+
+.at-view-slide-in-left.ng-enter-active {
+    -webkit-transform: translate(0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+    opacity: 1;
+    position: absolute;
+}
