@@ -123,6 +123,7 @@ body {
 /* STRUCTURE */
 
 #pagewrap {
+    clear:both;
     padding: 5px;
     width: 960px;
     margin: 20px auto;
