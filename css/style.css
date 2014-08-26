@@ -5,10 +5,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #666;
 }
-.wrapper{
-    width:90%;
-    position: relative;
-}
 .content {
     clear:both;
     padding: 5px;
@@ -78,6 +74,7 @@ body {
 nav{
     width:50%;
     margin: 0 auto;
+    background: green;
 }
 .nav-links{
     list-style: none;
@@ -125,28 +122,28 @@ MEDIA QUERIES
 /* for 980px or less */
 @media screen and (max-width: 980px) {
     
-    #pagewrap {
+    .content {
         width: 94%;
     }
-    #content {
+    .main-content {
         width: 41%;
         padding: 1% 4%;
     }
-    #middle {
+    .middle-content {
         width: 41%;
         padding: 1% 4%;
         margin: 0px 0px 5px 5px;
         float: right;
     }
     
-    #sidebar {
+    .sidebar-content {
         clear: both;
         padding: 1% 4%;
         width: auto;
         float: none;
     }
 
-    #header, #footer {
+    header, footer {
         padding: 1% 4%;
     }
 }
@@ -154,18 +151,18 @@ MEDIA QUERIES
 /* for 700px or less */
 @media screen and (max-width: 600px) {
 
-    #content {
+    .main-content {
         width: auto;
         float: none;
     }
     
-    #middle {
+    .middle-content {
         width: auto;
         float: none;
         margin-left: 0px;
     }
     
-    #sidebar {
+    .sidebar-content {
         width: auto;
         float: none;
     }
@@ -188,16 +185,16 @@ MEDIA QUERIES
 }
 
 
-#content {
+.main-content {
     background: #f8f8f8;
 }
-#sidebar {
+.sidebar-content {
     background: #f0efef;
 }
-#header, #content, #middle, #sidebar {
+header, .main-content, .middle-content, .sidebar-content {
     margin-bottom: 5px;
 }
 
-#pagewrap, #header, #content, #middle, #sidebar, #footer {
+header, .main-content, .middle-content, .sidebar-content, footer {
     border: solid 1px #ccc;
 }
