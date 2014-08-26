@@ -1,4 +1,10 @@
 /* Main wrapper *******************************/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body { 
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+}
 .wrapper{
     width:90%;
     position: relative;
@@ -9,26 +15,7 @@
     width: 960px;
     margin: 20px auto;
 }
-/*******Navigation ****************************/
-
-nav{
-    width:50%;
-    margin: 0 auto;
-}
-.nav-links{
-    list-style: none;
-    margin: 3% ;
-}
-.nav-links li{
-    float: left;
-    display: block;
-    margin-left: 2%;
-}
-  
-img{
-  width:16em;
-}
-
+/* Main Transition ******************************************/
 .out-left.ng-leave {
     -webkit-transition-property: -webkit-transform, opacity;
     -moz-transition-property: -moz-transform, opacity;
@@ -86,18 +73,26 @@ img{
     opacity: 1;
     position: absolute;
 }
+/*******Navigation ****************************/
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
-
-body { 
-  font-family: 'Open Sans', sans-serif;
-  color: #666;
+nav{
+    width:50%;
+    margin: 0 auto;
+}
+.nav-links{
+    list-style: none;
+    margin: 3% ;
+}
+.nav-links li{
+    float: left;
+    display: block;
+    margin-left: 2%;
 }
 
 /* STRUCTURE */
 
 
-#header {
+header {
     height: 100px;
     padding: 0 15px;
 }
