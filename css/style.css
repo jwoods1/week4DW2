@@ -96,25 +96,25 @@ header {
     height: 100px;
     padding: 0 15px;
 }
-#content {
+.main-content {
     width: 290px;
     float: left;
     padding: 5px 15px;
 }
 
-#middle {
+.middle-content {
     width: 294px; /* Account for margins + border values */
     float: left;
     padding: 5px 15px;
     margin: 0px 5px 5px 5px;
 }
 
-#sidebar {
+.sidebar-content {
     width: 270px;
     padding: 5px 15px;
     float: left;
 }
-#footer {
+footer {
     clear: both;
     padding: 0 15px;
 }
