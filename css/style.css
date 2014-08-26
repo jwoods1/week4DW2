@@ -4,7 +4,7 @@
     position: relative;
 }
 
-/*******Navigation ***************************
+/*******Navigation ****************************/
 
 nav{
     width:50%;
@@ -19,7 +19,7 @@ nav{
     display: block;
     margin-left: 2%;
 }
-  */
+  
 /********* Content ***************************
 .content{
     clear:both;
@@ -55,7 +55,7 @@ img{
   width:16em;
 }
 
-.at-view-slide-out-left.ng-leave {
+.out-left.ng-leave {
     -webkit-transition-property: -webkit-transform, opacity;
     -moz-transition-property: -moz-transform, opacity;
     -o-transition-property: -o-transform, opacity;
@@ -74,7 +74,7 @@ img{
     position: absolute;
 }
 
-.at-view-slide-out-left.ng-leave-active {
+.out-left.ng-leave-active {
     -webkit-transform: translate(-100%, 0px);
     -moz-transform: translate(-100%, 0px);
     -ms-transform: translate(-100%, 0px);
@@ -84,7 +84,7 @@ img{
     position: absolute;
 }
 
-.at-view-slide-in-left.ng-enter {
+.in-left.ng-enter {
     -webkit-transition-property: -webkit-transform, opacity;
     -moz-transition-property: -moz-transform, opacity;
     -o-transition-property: -o-transform, opacity;
@@ -103,7 +103,7 @@ img{
     position: absolute;
 }
 
-.at-view-slide-in-left.ng-enter-active {
+.in-left.ng-enter-active {
     -webkit-transform: translate(0px, 0px);
     -moz-transform: translate(0px, 0px);
     -ms-transform: translate(0px, 0px);
