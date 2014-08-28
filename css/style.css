@@ -141,11 +141,6 @@ nav{
     left:60%;
     border-top: .1em solid #7e8c94;
     background: #222c33;
-    background: -webkit-gradient(linear, left top, left bottom, from(#4c606e), to(#222c33));
-    background: -webkit-linear-gradient(top, #4c606e, #222c33);
-    background: -moz-linear-gradient(top, #4c606e, #222c33);
-    background: -ms-linear-gradient(top, #4c606e, #222c33);
-    background: -o-linear-gradient(top, #4c606e, #222c33);
     padding: 2% 2.5%;
     border-radius: 1em;
     box-shadow: rgba(0,0,0,1) 0 .1em 0;
@@ -203,6 +198,7 @@ footer {
     width: 13.2376em;
     height: 13.2376em;
     border-radius: 50%;
+    box-shadow: rgba(0,0,0,1) 0 .1em 0;
 }
 .video{
     margin :5%;
@@ -230,6 +226,50 @@ input[type=radio]{
     display:inline;
 
 }
+/*-------------------------------------------  table -------------------------------------------------------*/
+table{
+    background: #88A6AF;  /*changes color of the background of the table*/
+    border-collapse: collapse;
+    width: 100%;
+}
+tr{
+    display: table-row;
+    border-color: inherit;
+    background-color:#435A66;
+    color:#F5F2EB;
+}
+tr:hover{
+    -webkit-transform: scale(1.8);
+    -moz-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+    -o-transform: scale(1.8);
+    transform: scale(1.8);
+}
+.odd{
+    background: #F5F2EB; /*changes color of the stripes table*/
+    color:#435A66;
+}
+th{
+    text-align: center;
+    padding: 1em 1em .5em;
+    font-weight: bold;
+    font-size: 140%;
+    color: #fff;  /*changes color of table hd text*/
+    background: #424342; /*changes color of table hd background*/
+}
+td{
+    padding: 1em 1em;
+    width: 38%;
+    text-align: center;
+}
+td:first-child{
+    border-right: .02em solid #6a7680;
+}
+th:first-child { border-radius: 5px 0 0 0; }
+th:last-child { border-radius: 0 300px 0 0; }
+tr:last-child td:first-child { border-radius: 0 0 0 300px; }
+tr:last-child td:last-child { border-radius: 0 0 5px 0; }
+/*-------------------------------------------  top section-------------------------------------------------------*/
 
 /************************************************************************************
 MEDIA QUERIES
