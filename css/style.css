@@ -195,13 +195,14 @@ footer {
 }
 .user-Pic{
     display: inline-block;
-    width: 200px;
-    height: 200px;
+    width: 13.2376em;
+    height: 13.2376em;
     margin: 1em;
 }
 .user-Pic img{
     width: 13.2376em;
     height: 13.2376em;
+    border-radius: 50%;
 }
 .video{
     margin :5%;

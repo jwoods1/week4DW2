@@ -13,12 +13,6 @@ app.config(function($routeProvider) {
 
         }
     )
-        .when('/history',
-        {
-            templateUrl: 'partials/history.html',
-            controller: "AppCtrl"
-        }
-    )
         .when('/gallery',
         {
             templateUrl: 'partials/gallery.html',
