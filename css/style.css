@@ -67,11 +67,11 @@ body {
 }
 
 .in-left.ng-enter-active {
-    -webkit-transform: translate(0px, 0px);
-    -moz-transform: translate(0px, 0px);
-    -ms-transform: translate(0px, 0px);
-    -o-transform: translate(0px, 0px);
-    transform: translate(0px, 0px);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
     opacity: 1;
     position: absolute;
 }
@@ -208,6 +208,9 @@ footer {
 form{
     background-color:#F5F2EB;
     padding:5%;
+}
+input:focus,input:hover{
+    border:.2em solid #4cff00;
 }
 input[type=text]{
     font-size:1.2em;
@@ -363,6 +366,13 @@ MEDIA QUERIES
         -o-transform: scale(1.2);
         transform: scale(1.2);
     }
+    input[type=text]{
+    font-size:1.2em;
+    width:14.28907em;
+    background-color:#88A6AF;
+    color:#666;
+    border-radius: .4082em;
+}
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
