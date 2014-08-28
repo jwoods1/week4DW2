@@ -3,15 +3,16 @@
     </header>
     <form action="submit" autocomplete="on">
         <label for="fName">First Name:</label>
-        <input type="text" placeholder="Joe" required="true"/>
+        <input type="text" placeholder="Joe" id="fName" required="true"/> <br/>
         <label for="lName">Last Name:</label>
-        <input type="text" placeholder="Gingle" required="true"/>
+        <input type="text" placeholder="Gingle" id="lName" required="true"/><br/>
         <label for="team">Team Name:</label>
-        <input type="text" placeholder="Your Team Name here"/>
-        <label for="number"># on team</label>
-        <input type="number"/>
-        <input type="radio" name="sex" value="male" id="male"><label for="male">Male</label>
-        <input type="radio" name="sex" value="female" id="female"><label for="female">Female</label>
+        <input type="text" placeholder="Your Team Name here" id="team"/> <br/>
+        <label for="number"># On Team:</label>
+        <input type="number" id="number"/>
+        <input class="button" type="radio" name="sex" value="male" id="male"><label for="male">Male</label>
+        <input class="button" type="radio" name="sex" value="female" id="female"><label for="female">Female</label>
+        <br/>
         <label for="shirt">Shirt Size</label>
         <select name="shirt" id="shirt">
             <option value="xsm">xsm</option>
